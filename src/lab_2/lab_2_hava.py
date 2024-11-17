@@ -32,8 +32,6 @@ def sort_array(array):
 def swap(_index_1, _index_2):
     _array[_index_1], _array[_index_2] = _array[_index_2], _array[_index_1]
 
-
-
 if __name__ == '__main__':
     fill_array()
     sort_array(_array)
